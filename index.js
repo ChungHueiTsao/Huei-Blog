@@ -1,6 +1,6 @@
 // localStorage.removeItem("todoList");
-
 // console.log(JSON.parse(localStorage.getItem("todoList")).todo);
+
 if (JSON.parse(localStorage.getItem("todoList")) == null) {} else {
   for (
     var i = 0; i < JSON.parse(localStorage.getItem("todoList")).title.length; i++

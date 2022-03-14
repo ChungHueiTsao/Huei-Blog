@@ -1,50 +1,64 @@
-*{
-    // outline: 1px solid blue;
-    padding: 0;
-    margin: 0;
+* {
+  // outline: 1px solid blue;
+  padding: 0;
+  margin: 0;
 }
-.index{
-    width: 20rem;
-    margin: 2rem auto ;
-    padding: 1rem;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;;
-    background-color: rgb(236, 236, 236);
 
-    h1{
-        margin: 0.5rem 0 ;
-        width: 100%;
-        text-align: center;
-        font-family:Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        color: rgb(122, 122, 122);
+.index {
+  width: 20rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  ;
+  background-color: rgb(236, 236, 236);
+
+  h1 {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(122, 122, 122);
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(122, 122, 122);
+  }
+
+  #title {
+    height: 1.2rem;
+    border-width: 0;
+    border-radius: 3px;
+    margin: 0.3rem 0;
+  }
+
+  textarea {
+    margin: 0.3rem 0;
+    padding: 0;
+    border-width: 0;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.3em;
+    border-width: 0;
+    border-radius: 3px;
+    border: 1px solid rgb(209, 209, 209);
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     }
-    p{
-        font-family:Arial, Helvetica, sans-serif;
-        font-weight: bolder;
-        color: rgb(122, 122, 122);
-    }
-    #title{
-        height: 1.2rem;
-        border-width: 0;
-        border-radius: 3px;
-        margin: 0.3rem 0;
-    }
-    textarea{
-        margin: 0.3rem 0;
-        padding: 0;
-        border-width: 0;
-        border-radius: 3px;
-        width: 100%;
-    }
-    button{
-        width: 100%;
-        padding: 0.3em;
-        border-width: 0;
-        border-radius: 3px;
-        border: 1px solid rgb(209, 209, 209);
-        cursor: pointer;
-        &:hover{
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-        }
-    }
+  }
+
+
+  // 文章
+
+  #article {
+    border-bottom: 2px solid rgb(209, 209, 209);
+  }
 }

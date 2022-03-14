@@ -55,4 +55,8 @@
   -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
           box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
+
+.index #article {
+  border-bottom: 2px solid #d1d1d1;
+}
 /*# sourceMappingURL=style.css.map */
